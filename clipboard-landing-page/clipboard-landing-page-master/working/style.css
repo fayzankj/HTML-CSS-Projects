@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+:root {
+    --Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 16px;
+}
+
+header {
+
+    background-image: url('..//images/bg-header-desktop.png');
+    padding: 30px 70px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    background-size: cover;
+
+}
+
+.intro {
+    text-align: center;
+    padding: 10px 0px;
+    width: 45%;
+}
+
+.intro h1 {
+    padding: 5px 0;
+    margin: 20px 0 10px 0;
+}
+
+.btn-group {
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+button {
+
+    padding: 10px 25px;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: rgb(255, 255, 255);
+    margin: 0 10px;
+    border-radius: 20px;
+}
+
+.ios {
+    background: var(--Cyan);
+    box-shadow: 2px 2px 8px var(--Cyan), 2px 2px 2px var(--Cyan);
+}
+
+.mac {
+    background: var(--Light-Blue);
+    box-shadow: 2px 2px 8px var(--Light-Blue), 2px 2px 2px var(--Light-Blue);
+}
+
+.one {
+    text-align: center;
+    width: 45%;
+    margin: auto;
+}
+
+.one h2 {
+    padding: 15px 0;
+}
+
+.two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 'imgg features' 'imgg features' 'imgg features';
+    margin: 50px 0;
+    column-gap: 70px;
+
+}
+
+.features {
+    padding: 20px;
+    grid-area: features;
+}
+
+.snippets-1 {
+
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.snippets-2 {
+
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.snippets-3 {
+
+    width: 50%;
+}
+
+.imgg {
+    grid-area: imgg;
+}
+
+.two img {
+    width: 100%;
+    padding-left: 30px;
+}
+
+
+.features div {
+
+    margin-top: 40px;
+}
+
+.three {
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    place-items: center;
+    text-align: center;
+}
+
+.content-1 {
+    width: 50%;
+    margin: 20px 0px 20px 0;
+}
+
+.content-1 h2 {
+    margin: 20px 0px 20px 0;
+}
+
+.three p {
+    opacity: 80%;
+}
+
+.content-2 h2 {
+    margin-bottom: 15px
+}
+
+.four .functions {
+    text-align: center;
+    display: flex;
+    place-items: center;
+    margin: 0 30px 0 0;
+
+}
+
+.functions img {
+    margin: 10px 0 20px 0;
+}
+
+.functions h3 {
+    margin: 10px 0 20px 0;
+}
+
+.blacklists {
+    width: 50%;
+    padding: 50px;
+}
+
+.plain-text {
+    width: 50%;
+    padding: 50px;
+}
+
+.preview {
+    width: 50%;
+    padding: 50px;
+}
+
+.companies {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    margin: 50px 30px;
+}
+
+.five {
+    width: 46%;
+    margin: auto;
+    text-align: center;
+
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    align-items: center;
+}
+
+.foot img {
+    width: 15%;
+    height: 15%;
+    margin: 0px 70px;
+}
+
+footer ul {
+    list-style: none;
+    max-width: 400px;
+}
+
+footer li {
+    display: inline-block;
+    margin: 5px 20px;
+}
+
+a {
+    color: var(--Light-Blue);
+}
+
+footer p {
+    text-align: center;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
